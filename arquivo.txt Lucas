@@ -1,0 +1,11 @@
+Funciona assim
+
+"While True" torna o programa ininterrupto, a não ser que o usuário queira sair (opção 5)
+
+No loop, há um menu de operações, no qual o usuário pode inserir o número da operação desejada.
+
+Caso o usuário escolha '5', será exibido "Calculadora encerrada", encerrando o programa. Se a opção for entre '1, 2, 3 e 4', o programa solicita dois números ao usuário.
+
+Caso a opção seja dividir e o divisor seja zero, aparecerá "Não é viável dividir por zero".
+
+Caso o usuário digite uma opção inválida, o programa imprime "Escolha inválida". Tente novamente. E o loop continua.
