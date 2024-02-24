@@ -1,0 +1,6 @@
+O código funciona da seguinte forma:
+- O código "While True" faz com que o programa fique sendo executado infinitamente a não ser que o usuário queira sair (opção 5)
+- Dentro do loop, tem um menu de operações, onde o usuário digita o numero da operação desejada
+- Se a escolha do usuário for '5' aparece "Calculadora encerrada" encerrando o programa. Se a escolha for entre '1, 2, 3 e 4' o programa solicita dois números ao usuário.
+- Se a escolha for divisão e o divisor for zero, aparece "Não é possível dividir por zero."
+- Se o usuário digitar uma escolha inválida, o programa imprime "Escolha inválida. Tente novamente." e continua o loop.
