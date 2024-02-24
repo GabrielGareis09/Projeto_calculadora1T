@@ -1,0 +1,7 @@
+Código python:
+
+* "While True" é o código que faz com que o programa fique em loop até que usuário queira sair (opção 5)
+* Há um menu de operações dentro do loop onde o número escolhida é a operação (1, 2,3 e 4)
+* Se a escolha do usuário for '5' aparece "Calculadora encerrada" encerrando o programa. Se a escolha for entre '1, 2, 3 e 4' o programa solicita dois números ao usuário.
+* Se a divisor for zero quando escolhido divisão, aparece "Não é possível dividir por zero."
+* Se o usuário digitar uma escolha inválida, aparece "Escolha inválida. Tente novamente." e continua o loop.*
