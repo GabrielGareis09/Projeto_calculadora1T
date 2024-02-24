@@ -37,6 +37,3 @@ def calculadora():
 
 # Chame a função para iniciar a calculadora
 calculadora()
-
-</body>
-</html>
