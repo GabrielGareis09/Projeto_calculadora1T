@@ -1,6 +1,5 @@
-O código funciona da seguinte forma:
-- O código "While True" faz com que o programa fique sendo executado infinitamente a não ser que o usuário queira sair (opção 5)
-- Dentro do loop, tem um menu de operações, onde o usuário digita o numero da operação desejada
-- Se a escolha do usuário for '5' aparece "Calculadora encerrada" encerrando o programa. Se a escolha for entre '1, 2, 3 e 4' o programa solicita dois números ao usuário.
-- Se a escolha for divisão e o divisor for zero, aparece "Não é possível dividir por zero."
-- Se o usuário digitar uma escolha inválida, o programa imprime "Escolha inválida. Tente novamente." e continua o loop.
+HTML: A estrutura HTML delimita a configuração visual da calculadora, incorporando um campo de entrada (<input>) para visualizar a expressão e botões numéricos e de operadores para a participação do usuário. CSS: O CSS infunde estilos visuais na calculadora, determinando cores, tamanhos de fonte, margens e outros estilos para aprimorar seu visual. JavaScript (Brython): O código JavaScript gerencia a entrada do usuário e executa operações de cálculo, explorando a biblioteca Brython para permitir a execução de código Python diretamente no navegador. PYTHON: Ao clicar em um número ou operador, a função JavaScript correspondente (appendValue ou appendOperator) adiciona o valor ou operador ao campo de entrada. O botão "C" ativa clearDisplay, apagando o conteúdo do campo. O botão "=" ativa calculateResult, que avalia a expressão Python no campo usando window.eval(expression) e exibe o resultado. A biblioteca Brython facilita a execução de código Python no navegador, tornando mais simples a interação com a expressão matemática do usuário.
+
+
+
+
